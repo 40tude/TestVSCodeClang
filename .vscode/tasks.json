@@ -7,9 +7,14 @@
       "command": "clang-cl",
       "args": [
         "main.cpp",
-        "/Z7 /MDd /W4 /EHsc /std:c++17 /Od",
-        "/o Debug/Test.exe",
-        "/link User32.lib" 
+        "/Z7",
+        "/MDd",
+        "/W4",
+        "/EHsc",
+        "/std:c++17",
+        "/Od",
+        "/o' 'Debug/Test.exe",
+        "/link' 'User32.lib" 
       ],
       "group": {
         "kind": "build",
@@ -22,9 +27,13 @@
       "command": "clang-cl",
       "args": [
         "main.cpp",
-        "/MD /W4 /EHsc /std:c++17 /O2",
-        "/o Release/Test.exe",
-        "/link User32.lib" 
+        "/MD",
+        "/W4",
+        "/EHsc",
+        "/std:c++17",
+        "/O2",
+        "/o' 'Release/Test.exe",
+        "/link' 'User32.lib" 
       ],
     }
   ]
